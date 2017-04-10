@@ -1,9 +1,9 @@
 class Https < Formula
   desc "https proxy for local testing"
   homepage "https://github.com/mattrobenolt/https"
-  url "https://github.com/mattrobenolt/https/releases/download/0.1.0/https-darwin-amd64", :using => :nounzip
-  version "0.1.0"
-  sha256 "4e4217a4ee9a92cba0fc3dff79e0805792e14dd4cd5a88d77041246c5d4fc40a"
+  url "https://github.com/mattrobenolt/https/releases/download/0.1.1/https-darwin-amd64", :using => :nounzip
+  version "0.1.1"
+  sha256 "37cc88d1840a70b46f24282695e5a985e85cc5d4e1a819485baf2d353b567bce"
 
   bottle :unneeded
 
