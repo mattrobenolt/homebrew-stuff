@@ -1,9 +1,9 @@
 class EmailMe < Formula
   desc "email me when a thing is done"
   homepage "https://github.com/mattrobenolt/email-me"
-  url "https://github.com/mattrobenolt/email-me/releases/download/0.3.1/email-me-darwin-amd64", :using => :nounzip
-  version "0.3.1"
-  sha256 "f836269a9ec7c90c45a1f26fc28a4c61d810b605a5c8898aafbb55e0a9155558"
+  url "https://github.com/mattrobenolt/email-me/releases/download/0.4.0/email-me-darwin-amd64", :using => :nounzip
+  version "0.4.0"
+  sha256 "60fe999855a3120d9f1e69b5fd659528a7ec9939c23c2f80a6662d3cc6f4e328"
 
   bottle :unneeded
 
