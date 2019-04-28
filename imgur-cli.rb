@@ -1,9 +1,9 @@
 class ImgurCli < Formula
   desc "upload clipboard image to imgur and get back a direct link"
   homepage "https://github.com/mattrobenolt/imgur-cli"
-  url "https://github.com/mattrobenolt/imgur-cli/releases/download/0.0.2/imgur", :using => :nounzip
-  version "0.0.2"
-  sha256 "157559c1771176fc4bd66285b06d7daa75d5b23a3060158a8c856c161fbb2843"
+  url "https://github.com/mattrobenolt/imgur-cli/releases/download/0.0.3/imgur", :using => :nounzip
+  version "0.0.3"
+  sha256 "ed4ecbd5e3531c96cf1ad67c8c92e34ab1a1f9dddeecaa65db8aa98c02c089b2"
 
   bottle :unneeded
 
