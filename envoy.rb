@@ -1,9 +1,9 @@
 class Envoy < Formula
   desc "Cloud-native high-performance edge/middle/service proxy"
   homepage "https://github.com/envoyproxy/envoy"
-  url "https://sentryio-downloads.storage.googleapis.com/envoy/v1.10.0/envoy-darwin", :using => :nounzip
-  version "1.10.0"
-  sha256 "76dd1f378db5629ef27d7e10878b870452eb05cda79d9093ee98f5a62145cd69"
+  url "https://sentryio-downloads.storage.googleapis.com/envoy/v1.11.0/envoy-darwin", :using => :nounzip
+  version "1.11.0"
+  sha256 "8fe3a45a966726ab070ed30067cd8da99a9d151e7bcdc633c6d440273cd5254b"
 
   bottle :unneeded
 
