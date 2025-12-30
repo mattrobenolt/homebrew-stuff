@@ -39,5 +39,5 @@ cask "inbox" do
     end
   end
 
-  # No zap stanza required
+  zap trash: "~/Library/Application Support/inbox"
 end
