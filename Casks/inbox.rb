@@ -3,7 +3,7 @@ cask "inbox" do
   name "inbox"
   desc "A fast, beautiful, and distraction-free Gmail client for your terminal."
   homepage "https://github.com/mattrobenolt/inbox"
-  version "0.0.4"
+  version "0.0.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "inbox" do
   on_macos do
     on_intel do
       url "https://github.com/mattrobenolt/inbox/releases/download/v#{version}/inbox_#{version}_darwin_amd64.tar.gz"
-      sha256 "6206e5a1e87c74739f084739aef8d3e90e98f1b2f3a2f0a06aac04554810f223"
+      sha256 "aaded71961792e47cfda4cfe4a1a3e7cef5c9af4dec3ef12d6e2a8026f77495d"
     end
     on_arm do
       url "https://github.com/mattrobenolt/inbox/releases/download/v#{version}/inbox_#{version}_darwin_arm64.tar.gz"
-      sha256 "243170098e3f6f9174629fc622e3763f83dcf5871c09d2c46a865dd5263ff4e9"
+      sha256 "9ef0688c94ab707cfe8a0f31e5e236aed0996e7fb521c1fae36b52f1e16959ee"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mattrobenolt/inbox/releases/download/v#{version}/inbox_#{version}_linux_amd64.tar.gz"
-      sha256 "665f44709c736ee5c09a78405a7a9b930ab23c656f042e14cfc683a74dd099c3"
+      sha256 "f948ca56186764fd2ef04cbb5bf6c60a4b0cd138f5597014f702e8927c3bf241"
     end
     on_arm do
       url "https://github.com/mattrobenolt/inbox/releases/download/v#{version}/inbox_#{version}_linux_arm64.tar.gz"
-      sha256 "9795c24efea3eec96bcca1c2f4e5efd093e61579d59f8566f38917f412fba250"
+      sha256 "3baf33d7975277ef3309931b44a797334bf2024f6cba59731b7ac8c0650edaf7"
     end
   end
 
