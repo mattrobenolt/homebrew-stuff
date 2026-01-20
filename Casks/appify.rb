@@ -3,7 +3,7 @@ cask "appify" do
   name "appify"
   desc "Turn TUI apps into real macOS applications."
   homepage "https://github.com/mattrobenolt/appify"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,7 +14,7 @@ cask "appify" do
   on_macos do
     on_arm do
       url "https://github.com/mattrobenolt/appify/releases/download/v#{version}/appify_#{version}_darwin_arm64.tar.gz"
-      sha256 "41af0add8acec41b17e8abb467382ca8894a86b238cc46d3eddf972236065544"
+      sha256 "4fac6e848a8de50300a51e9737e5a062e679c20f7363eca34ed39fae80710caa"
     end
   end
 
