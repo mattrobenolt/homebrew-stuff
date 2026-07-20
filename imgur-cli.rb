@@ -5,8 +5,6 @@ class ImgurCli < Formula
   version "0.0.3"
   sha256 "ed4ecbd5e3531c96cf1ad67c8c92e34ab1a1f9dddeecaa65db8aa98c02c089b2"
 
-  bottle :unneeded
-
   def install
       bin.install "imgur"
   end
